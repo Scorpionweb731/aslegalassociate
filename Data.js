@@ -129,6 +129,11 @@ document.querySelector('.author_image').src = author_image;
 document.querySelector('.author_image2').src = author_image;
 document.querySelector('.author_name').innerHTML = authorName;
 document.querySelector('.author_name2').innerHTML = authorName;
+document.querySelector('.designation').innerHTML = designation;
+document.querySelector('.designation2').innerHTML = designationmore;
+document.querySelector('.desktopdesignation').innerHTML = designation;
+document.querySelector('.desktopdesignation2').innerHTML = designationmore;
+
 const authorservicearea = document.getElementsByClassName('author_services')[0]; // Select the first element
 
 for (const key in services) {
